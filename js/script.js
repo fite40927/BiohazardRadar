@@ -13,6 +13,9 @@ $(document).ready(function () {
         },
         dataType: "text"
     });
+    $('.nav-tabs a').click(function () {
+        $(this).tab('show');
+    })
 });
 
 
