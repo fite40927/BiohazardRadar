@@ -1,5 +1,6 @@
 [
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Beijing",
 		"Country_Region" : "China",
 		"Confirmed" : 2521,
@@ -10,6 +11,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Hebei",
 		"Country_Region" : "China",
 		"Confirmed" : 215,
@@ -20,6 +22,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Shanxi",
 		"Country_Region" : "China",
 		"Confirmed" : 450,
@@ -30,6 +33,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Inner Mongolia",
 		"Country_Region" : "China",
 		"Confirmed" : 284,
@@ -40,6 +44,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Liaoning",
 		"Country_Region" : "China",
 		"Confirmed" : 6,
@@ -50,6 +55,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Shanghai",
 		"Country_Region" : "China",
 		"Confirmed" : 8,
@@ -60,6 +66,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Sichuan",
 		"Country_Region" : "China",
 		"Confirmed" : 19,
@@ -70,6 +77,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Hubei",
 		"Country_Region" : "China",
 		"Confirmed" : 7,
@@ -80,6 +88,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Guangxi",
 		"Country_Region" : "China",
 		"Confirmed" : 22,
@@ -90,6 +99,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Tianjin",
 		"Country_Region" : "China",
 		"Confirmed" : 175,
@@ -100,6 +110,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Jilin",
 		"Country_Region" : "China",
 		"Confirmed" : 35,
@@ -110,6 +121,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Guangdong",
 		"Country_Region" : "China",
 		"Confirmed" : 1511,
@@ -120,6 +132,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Jiangsu",
 		"Country_Region" : "China",
 		"Confirmed" : 7,
@@ -130,6 +143,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Gansu",
 		"Country_Region" : "China",
 		"Confirmed" : 8,
@@ -140,6 +154,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Anhui",
 		"Country_Region" : "China",
 		"Confirmed" : 10,
@@ -150,6 +165,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Shaanxi",
 		"Country_Region" : "China",
 		"Confirmed" : 12,
@@ -160,6 +176,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Zhejiang",
 		"Country_Region" : "China",
 		"Confirmed" : 4,
@@ -170,6 +187,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Henan",
 		"Country_Region" : "China",
 		"Confirmed" : 15,
@@ -180,6 +198,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Chongqing",
 		"Country_Region" : "China",
 		"Confirmed" : 3,
@@ -190,6 +209,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Jiangxi",
 		"Country_Region" : "China",
 		"Confirmed" : 1,
@@ -200,6 +220,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Ningxia",
 		"Country_Region" : "China",
 		"Confirmed" : 5,
@@ -210,6 +231,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Shandong",
 		"Country_Region" : "China",
 		"Confirmed" : 1,
@@ -220,6 +242,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Fujian",
 		"Country_Region" : "China",
 		"Confirmed" : 3,
@@ -230,6 +253,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Hunan",
 		"Country_Region" : "China",
 		"Confirmed" : 6,
@@ -240,6 +264,7 @@
 		"Last_Update" : "2003-05-31" 
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Heilongjiang",
 		"Country_Region" : "China",
 		"Confirmed" : 0,
@@ -250,6 +275,7 @@
 		"Last_Update" : "2003-05-31"
 	},
 	{ 
+		"Admin2" : "",
 		"Province_State" : "Xinjiang",
 		"Country_Region" : "China",
 		"Confirmed" : 0,

@@ -1,27 +1,37 @@
 $(document).ready(function () {
-    var covidJSON, map;
+    var map, coviddata, sarsdata, mersdata, eboladata;
     $.ajax({
         type: "GET",
         url: "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_covid_19_data/csse_covid_19_daily_reports/09-19-2020.csv",
         dataType: "text",
         success: function (csv) {
             var csvObj = $.csv.toObjects(csv);
-            covidJSON = JSON.parse(JSON.stringify(csvObj));
-            console.log(covidJSON);
-            map = initMap(covidJSON, 'map');
-            displayData(map, covidJSON);
-        },
-        dataType: "text"
+            coviddata = JSON.parse(JSON.stringify(csvObj));
+            console.log(coviddata);
+            map = initMap(59.9606739, 30.158655100000004);
+            displayData(map, coviddata);
+        }
+    });
+    $.getJSON("https://raw.githubusercontent.com/fite40927/BiohazardRadar/master/data/sars.json", function(data){
+        sarsdata = data;
     });
     $('.nav-tabs a').click(function () {
         $(this).tab('show');
     })
+    $("#cvd").click(function(){
+        map = initMap(59.9606739, 30.158655100000004);
+        displayData(map, coviddata);
+    });
+    $("#srs").click(function(){
+        map = initMap(39.916668, 116.383331);
+        displayData(map, sarsdata);
+    });
 });
 
 
-function initMap(data, id) {
+function initMap(lt, lg) {
     var map = new google.maps.Map(
-        document.getElementById(id), { zoom: 10, center: { lat: 59.9606739, lng: 30.158655100000004 } });
+        document.getElementById('map'), { zoom: 10, center: { lat: lt, lng: lg } });
     return map;
 }
 

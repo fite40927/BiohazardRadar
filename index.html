@@ -37,25 +37,24 @@
 </nav>
 
 <body>
-    <!-- <style>.embed-container {position: relative; padding-bottom: 80%; height: 0; max-width: 100%;} .embed-container iframe, .embed-container object, .embed-container iframe{position: absolute; top: 0; left: 0; width: 100%; height: 100%;} small{position: absolute; z-index: 40; bottom: 0; margin-bottom: -15px;}</style><div class="embed-container"><iframe width="500" height="400" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" title="COVID-19" src="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"></iframe></div> -->
-    <ul class="nav navbar-expand-sm nav-tabs my-2 container">
-        <li class="nav-item">
+   <ul class="nav navbar-expand-sm nav-tabs my-2 container">
+        <li class="nav-item" id="cvd">
             <a data-toggle="tab" class="nav-link active" href="#covid">COVID-19</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="srs">
             <a data-toggle="tab" class="nav-link" href="#sars">SARS</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="mrs">
             <a data-toggle="tab" class="nav-link" href="#mers">MERS</a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item" id="ebl">
             <a data-toggle="tab" class="nav-link" href="#ebola">Ebola</a>
         </li>
     </ul>
 
+    <div class="container" id="map"></div>
     <div class="tab-content">
         <div class="tab-pane fade show active" id="covid">
-            <div class="container" id="map"></div>
             <div class="container my-4">
                 <p>Coronavirus disease (COVID-19) is an infectious disease caused by a newly discovered coronavirus.</p>
 
@@ -77,7 +76,6 @@
             </div>
         </div>
         <div class="tab-pane fade" id="sars">
-            <div class="container" id="map"></div>
             <div class="container my-4">
                 <p>SARS coronavirus (SARS-CoV) – virus identified in 2003. SARS-CoV is thought to be an animal virus
                     from an as-yet-uncertain animal reservoir, perhaps bats, that spread to other animals (civet cats)
@@ -95,7 +93,6 @@
             </div>
         </div>
         <div class="tab-pane fade" id="mers">
-            <div class="container" id="map"></div>
             <div class="container my-4">
                 <p>Middle East respiratory syndrome coronavirus (MERS-CoV) is a virus transferred to humans from
                     infected dromedary camels. It is a zoonotic virus, meaning it is transmitted between animals and
@@ -114,7 +111,6 @@
             </div>
         </div>
         <div class="tab-pane fade" id="ebola">
-            <div class="container" id="map"></div>
             <div class="container my-4">
                 <p>Ebola virus disease (EVD), formerly known as Ebola haemorrhagic fever, is a severe, often fatal
                     illness affecting humans and other primates.</p>
