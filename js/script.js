@@ -26,6 +26,12 @@ $(document).ready(function () {
         map = initMap(39.916668, 116.383331);
         displayData(map, sarsdata);
     });
+    $("#mrs").click(function(){
+        map = initMap(39.916668, 116.383331);
+    });
+    $("#ebl").click(function(){
+        map = initMap(39.916668, 116.383331);
+    });
 });
 
 
