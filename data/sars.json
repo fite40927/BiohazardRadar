@@ -1,0 +1,263 @@
+[
+	{ 
+		"Province_State" : "Beijing",
+		"Country_Region" : "China",
+		"Confirmed" : 2521,
+		"Deaths" : 181,
+		"Recovered" : 1087,
+		"Lat" : 39.916668,
+		"Long_" : 116.383331,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Hebei",
+		"Country_Region" : "China",
+		"Confirmed" : 215,
+		"Deaths" : 12,
+		"Recovered" : 152,
+		"Lat" : 39.333332,
+		"Long_" : 116.6499974,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Shanxi",
+		"Country_Region" : "China",
+		"Confirmed" : 450,
+		"Deaths" : 21,
+		"Recovered" : 338,
+		"Lat" : 37.871460,
+		"Long_" : 112.55120,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Inner Mongolia",
+		"Country_Region" : "China",
+		"Confirmed" : 284,
+		"Deaths" : 28,
+		"Recovered" : 156,
+		"Lat" : 40.846333,
+		"Long_" : 111.733017,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Liaoning",
+		"Country_Region" : "China",
+		"Confirmed" : 6,
+		"Deaths" : 2,
+		"Recovered" : 2,
+		"Lat" : 42.035522,
+		"Long_" : 121.659676,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Shanghai",
+		"Country_Region" : "China",
+		"Confirmed" : 8,
+		"Deaths" : 2,
+		"Recovered" : 2,
+		"Lat" : 31.224361,
+		"Long_" : 121.469170,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Sichuan",
+		"Country_Region" : "China",
+		"Confirmed" : 19,
+		"Deaths" : 2,
+		"Recovered" : 12,
+		"Lat" : 31.456781,
+		"Long_" : 102.843018,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Hubei",
+		"Country_Region" : "China",
+		"Confirmed" : 7,
+		"Deaths" : 1,
+		"Recovered" : 4,
+		"Lat" : 30.596069,
+		"Long_" : 114.297691,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Guangxi",
+		"Country_Region" : "China",
+		"Confirmed" : 22,
+		"Deaths" : 3,
+		"Recovered" : 16,
+		"Lat" : 22.816668,
+		"Long_" : 108.316666,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Tianjin",
+		"Country_Region" : "China",
+		"Confirmed" : 175,
+		"Deaths" : 14,
+		"Recovered" : 87,
+		"Lat" : 39.133331,
+		"Long_" : 117.183334,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Jilin",
+		"Country_Region" : "China",
+		"Confirmed" : 35,
+		"Deaths" : 6,
+		"Recovered" : 20,
+		"Lat" : 43.700001,
+		"Long_" : 126.199997,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Guangdong",
+		"Country_Region" : "China",
+		"Confirmed" : 1511,
+		"Deaths" : 57,
+		"Recovered" : 1441,
+		"Lat" : 23.128994,
+		"Long_" : 113.253250,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Jiangsu",
+		"Country_Region" : "China",
+		"Confirmed" : 7,
+		"Deaths" : 0,
+		"Recovered" : 3,
+		"Lat" : 32.049999,
+		"Long_" : 118.766670,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Gansu",
+		"Country_Region" : "China",
+		"Confirmed" : 8,
+		"Deaths" : 1,
+		"Recovered" : 5,
+		"Lat" : 36.054871,
+		"Long_" : 103.828812,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Anhui",
+		"Country_Region" : "China",
+		"Confirmed" : 10,
+		"Deaths" : 0,
+		"Recovered" : 9,
+		"Lat" : 31.848398,
+		"Long_" : 117.272362,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Shaanxi",
+		"Country_Region" : "China",
+		"Confirmed" : 12,
+		"Deaths" : 0,
+		"Recovered" : 11,
+		"Lat" : 32.684715,
+		"Long_" : 109.029022,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Zhejiang",
+		"Country_Region" : "China",
+		"Confirmed" : 4,
+		"Deaths" : 0,
+		"Recovered" : 1,
+		"Lat" : 29.868336,
+		"Long_" : 121.543991,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Henan",
+		"Country_Region" : "China",
+		"Confirmed" : 15,
+		"Deaths" : 0,
+		"Recovered" : 11,
+		"Lat" : 34.746613,
+		"Long_" : 113.625328,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Chongqing",
+		"Country_Region" : "China",
+		"Confirmed" : 3,
+		"Deaths" : 0,
+		"Recovered" : 1,
+		"Lat" : 29.563009,
+		"Long_" : 106.551559,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Jiangxi",
+		"Country_Region" : "China",
+		"Confirmed" : 1,
+		"Deaths" : 0,
+		"Recovered" : 1,
+		"Lat" : 27.6333,
+		"Long_" : 115.7667,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Ningxia",
+		"Country_Region" : "China",
+		"Confirmed" : 5,
+		"Deaths" : 1,
+		"Recovered" : 4,
+		"Lat" : 38.488800,
+		"Long_" : 106.249290,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Shandong",
+		"Country_Region" : "China",
+		"Confirmed" : 1,
+		"Deaths" : 0,
+		"Recovered" : 0,
+		"Lat" : 36.666668,
+		"Long_" : 116.983330,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Fujian",
+		"Country_Region" : "China",
+		"Confirmed" : 3,
+		"Deaths" : 0,
+		"Recovered" : 3,
+		"Lat" : 26.075300,
+		"Long_" : 119.308197,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Hunan",
+		"Country_Region" : "China",
+		"Confirmed" : 6,
+		"Deaths" : 1,
+		"Recovered" : 5,
+		"Lat" : 28.228001,
+		"Long_" : 112.939003,
+		"Last_Update" : "2003-05-31" 
+	},
+	{ 
+		"Province_State" : "Heilongjiang",
+		"Country_Region" : "China",
+		"Confirmed" : 0,
+		"Deaths" : 0,
+		"Recovered" : 0,
+		"Lat" : 45.811573,
+		"Long_" : 126.546707,
+		"Last_Update" : "2003-05-31"
+	},
+	{ 
+		"Province_State" : "Xinjiang",
+		"Country_Region" : "China",
+		"Confirmed" : 0,
+		"Deaths" : 0,
+		"Recovered" : 0,
+		"Lat" : 44.402393,
+		"Long_" : 86.154785,
+		"Last_Update" : "2003-05-31" 
+	}
+]
+		

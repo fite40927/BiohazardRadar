@@ -8,7 +8,7 @@ $(document).ready(function () {
             var csvObj = $.csv.toObjects(csv);
             covidJSON = JSON.parse(JSON.stringify(csvObj));
             console.log(covidJSON);
-            map = initMap(covidJSON);
+            map = initMap(covidJSON, 'map');
             displayData(map, covidJSON);
         },
         dataType: "text"
@@ -19,9 +19,9 @@ $(document).ready(function () {
 });
 
 
-function initMap(data) {
+function initMap(data, id) {
     var map = new google.maps.Map(
-        document.getElementById('map'), { zoom: 10, center: { lat: 59.9606739, lng: 30.158655100000004 } });
+        document.getElementById(id), { zoom: 10, center: { lat: 59.9606739, lng: 30.158655100000004 } });
     return map;
 }
 
