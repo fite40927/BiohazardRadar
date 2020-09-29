@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: whitesmoke;">
 
 <head id="head">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-signin-client_id"
+        content="130350431146-78v0u8bskd349pe5ndna5q6qgne19l42.apps.googleusercontent.com">
 
     <title>Biohazard Tracker</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.min.js"></script>
@@ -15,6 +19,7 @@
     <script src="js/script.js"></script>
     <script defer
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3tKVDr8ZWHb2_DEXV5kpR1zEsc4WPSUo&callback=initMap"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 
 <nav class="navbar navbar-expand-sm bg-light navbar-light container-fluid" id="nav">
@@ -31,13 +36,20 @@
                 <li class="nav-item">
                     <a class="nav-link" href="about.html">About</a>
                 </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Risk Assessor</a>
+                </li>
+                <li class="nav-item">
+                    <div class="g-signin2 p-1" data-onsuccess="onSignIn"></div>
+                    <a class="nav-link" onclick="signOut();" style="display: none;" id="signout">Sign out</a>
+                </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<body>
-   <ul class="nav navbar-expand-sm nav-tabs my-2 container">
+<body style="background-color: white;">
+    <ul class="nav navbar-expand-sm nav-tabs my-2 container">
         <li class="nav-item" id="cvd">
             <a data-toggle="tab" class="nav-link active" href="#covid">COVID-19</a>
         </li>
@@ -136,6 +148,16 @@
     </div>
 </body>
 
-<footer class="footer">
-    <p>Information about viruses courtesy of the World Health Organisation</p>
+<footer class="container-fluid page-footer text-center text-muted initialism"
+    style="background-color: whitesmoke; padding: 25px; height:12vh">
+    <div class="row align-items-center">
+        <div class="col-sm"></div>
+        <div class="col-md-6">
+            <p>Information courtesy of the World Health Organisation</p>
+        </div>
+        <div class="col-sm-4">
+            <p>© 2020 Copyright: Apsara Fite</p>
+        </div>
+        <div class="col-sm"></div>
+    </div>
 </footer>

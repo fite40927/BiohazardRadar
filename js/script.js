@@ -12,28 +12,31 @@ $(document).ready(function () {
             displayData(map, coviddata);
         }
     });
-    $.getJSON("https://raw.githubusercontent.com/fite40927/BiohazardRadar/master/data/sars.json", function(data){
+    $.getJSON("https://raw.githubusercontent.com/fite40927/BiohazardRadar/master/data/sars.json", function (data) {
         sarsdata = data;
     });
+
     $('.nav-tabs a').click(function () {
         $(this).tab('show');
     })
-    $("#cvd").click(function(){
-        map = initMap(59.9606739, 30.158655100000004);
-        displayData(map, coviddata);
+    $("#cvd").click(function () {
+        tabMap(coviddata, 59.9606739, 30.158655100000004);
     });
-    $("#srs").click(function(){
-        map = initMap(39.916668, 116.383331);
-        displayData(map, sarsdata);
+    $("#srs").click(function () {
+        tabMap(sarsdata, 39.916668, 116.383331);
     });
-    $("#mrs").click(function(){
-        map = initMap(39.916668, 116.383331);
+    $("#mrs").click(function () {
+        tabMap(mersdata, 0, 0);
     });
-    $("#ebl").click(function(){
-        map = initMap(39.916668, 116.383331);
+    $("#ebl").click(function () {
+        tabMap(eboladata, 0, 0);
     });
 });
 
+function tabMap(data, lat, long) {
+    map = initMap(lat, long);
+    displayData(map, data);
+}
 
 function initMap(lt, lg) {
     var map = new google.maps.Map(
@@ -64,4 +67,21 @@ function displayData(map, data) {
             infoWindow.open(this.getMap(), this);
         });
     }
+}
+function onSignIn(googleUser) {
+    var profile = googleUser.getBasicProfile();
+    $(".g-signin2").hide();
+    $("#signout").show();
+    console.log('ID: ' + profile.getId()); // Do not send to your backend! Use an ID token instead.
+    console.log('Name: ' + profile.getName());
+    console.log('Image URL: ' + profile.getImageUrl());
+    console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
+}
+function signOut() {
+    var auth2 = gapi.auth2.getAuthInstance();
+    $(".g-signin2").show();
+    $("#signout").hide();
+    auth2.signOut().then(function () {
+        console.log('User signed out.');
+    });
 }

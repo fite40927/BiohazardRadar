@@ -22,10 +22,16 @@
         <div class="collapse navbar-collapse" id="navbar-pages">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">Home</a>
+                    <a class="nav-link active" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link active" href="#">About</a>
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="#">Risk Assessor</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-secondary disabled" href="#">Login</a>
                 </li>
             </ul>
         </div>
@@ -34,18 +40,34 @@
 
 <body>
     <div class="container my-4">
-        <p>Biohazard Tracker is an online hub for staying updated on potential threats to human health. We are currently
-            in-development, and still have a multitude of tools to implement. As of September 25, 2020, only the
+        <p>Biohazard Tracker is an online hub for staying updated on potential threats to human health. The site is currently
+            in-development, and I still have a multitude of tools to implement. As of September 25, 2020, only the
             COVID-19 and SARS-CoV maps have accesible map data and information.</p>
         <p>Look to see these features in the future:</p>
         <ul>
             <li>Symptom questionnaires</li>
+            <li>Get autnomously-updated, real-time data</li>
             <li>Risk assessment based on your demographic</li>
             <li>Account registration for alerts, updates, and to save your health information</li>
-            <li>Inclution of health threats other than viruses, ex. natural disastors and air quality</li>
+            <li>Inclusion of health threats other than viruses, ex. natural disastors and air quality</li>
             <li>More information about the imposing threats</li>
             <li>External tools, such as centers dedicated to the issue and charities</li>
             <li>Searchable map data for ease of access</li>
+            <li>Code cleanup and reduction</li>
         </ul>
+        <p>This project is a result of ZHacks 2020. Click <a href="https://github.com/fite40927/BiohazardRadar">here</a> to visit my GitHub repository.</p>
     </div>
 </body>
+
+<footer class="container-fluid page-footer text-center text-muted initialism" style="background-color: whitesmoke; padding: 25px; height:12vh">
+    <div class="row align-items-center">
+        <div class="col-sm"></div>
+        <div class="col-md-6">
+            <p>Information courtesy of the World Health Organisation</p>
+        </div>
+        <div class="col-sm-4">
+            <p>© 2020 Copyright: Apsara Fite</p>
+        </div>
+        <div class="col-sm"></div>
+    </div>
+</footer>
