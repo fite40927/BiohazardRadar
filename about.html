@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" style="background-color: whitesmoke;">
 
 <head id="head">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="google-signin-client_id"
+        content="130350431146-78v0u8bskd349pe5ndna5q6qgne19l42.apps.googleusercontent.com">
 
     <title>Biohazard Tracker</title>
+    <link rel="icon" href="img/bht.png">
+
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
     <script src="js/jquery.min.js"></script>
     <script src="js/jquery.csv.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script defer
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyB3tKVDr8ZWHb2_DEXV5kpR1zEsc4WPSUo&callback=initMap"></script>
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
 </head>
 
 <nav class="navbar navbar-expand-sm bg-light navbar-light container-fluid" id="nav">
@@ -31,16 +40,18 @@
                     <a class="nav-link disabled" href="#">Risk Assessor</a>
                 </li>
                 <li class="nav-item">
-                    <button type="button" class="btn btn-secondary disabled" href="#">Login</a>
+                    <div class="g-signin2 p-1" data-onsuccess="onSignIn"></div>
+                    <a class="nav-link" href="" onclick="signOut();" style="display: none;" id="signout">Sign out</a>
                 </li>
             </ul>
         </div>
     </div>
 </nav>
 
-<body>
+<body style="background-color:white;">
     <div class="container my-4">
-        <p>Biohazard Tracker is an online hub for staying updated on potential threats to human health. The site is currently
+        <p>Biohazard Tracker is an online hub for staying updated on potential threats to human health. The site is
+            currently
             in-development, and I still have a multitude of tools to implement. As of September 25, 2020, only the
             COVID-19 and SARS-CoV maps have accesible map data and information.</p>
         <p>Look to see these features in the future:</p>
@@ -55,19 +66,24 @@
             <li>Searchable map data for ease of access</li>
             <li>Code cleanup and reduction</li>
         </ul>
-        <p>This project is a result of ZHacks 2020. Click <a href="https://github.com/fite40927/BiohazardRadar">here</a> to visit my GitHub repository.</p>
+        <p>This project is a result of ZHacks 2020. Click <a href="https://github.com/fite40927/BiohazardRadar">here</a>
+            to visit my GitHub repository.</p>
     </div>
 </body>
 
-<footer class="container-fluid page-footer text-center text-muted initialism" style="background-color: whitesmoke; padding: 25px; height:12vh">
-    <div class="row align-items-center">
-        <div class="col-sm"></div>
-        <div class="col-md-6">
-            <p>Information courtesy of the World Health Organisation</p>
+<footer class="container-fluid" style="background-color: whitesmoke; padding: 25px; height:14vh">
+    <div class="container page-footer text-center text-muted initialism">
+        <div class="row align-items-center mx-4 justify-content-md-center">
+            <div class="col-md-4">
+                <p>Information courtesy of the World Health Organisation</p>
+            </div>
+            <div class="col-md-4">
+                <a href="privacypolicy.html">Privacy Policy</a>
+            </div>
+            <div class="col-sm-4">
+                <p>© 2020 Copyright: Apsara Fite</p>
+            </div>
+            <div class="col-sm"></div>
         </div>
-        <div class="col-sm-4">
-            <p>© 2020 Copyright: Apsara Fite</p>
-        </div>
-        <div class="col-sm"></div>
     </div>
 </footer>
